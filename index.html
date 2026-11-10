@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salman P | PlayScope Football Analytics Portfolio</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col antialiased selection:bg-emerald-500 selection:text-black">
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="sticky top-0 z-40 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center font-bold text-emerald-400">
+          PS
+        </div>
+        <div>
+          <span class="text-sm font-bold tracking-wider uppercase text-white">PlayScope</span>
+          <span class="text-xs text-slate-500 block -mt-1 font-mono">Tactical Telemetry & Scouting</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="#contact" class="text-xs px-3.5 py-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold transition-all">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO PROFILE ================= -->
+  <!-- ================= HERO & ABOUT PROFILE SECTION ================= -->
+  <section class="max-w-7xl mx-auto px-4 pt-10 pb-12 border-b border-slate-800/80">
+    
+    <!-- Top Identity Badge -->
+    <div class="flex flex-wrap items-center justify-between gap-3 mb-6">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-mono">
+        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+        Active Software Engineer & Independent Football Analyst
+      </div>
+      <div class="text-xs font-mono text-slate-400 flex items-center gap-2">
+        <span>📍 Kozhikode, India</span>
+        <span>•</span>
+        <span class="text-emerald-400">Available for SPL / QSL / ISL Projects</span>
+      </div>
+    </div>
+
+    <!-- Main Title & Tagline -->
+    <div class="max-w-4xl">
+      <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight">
+        Salman P
+      </h1>
+      <p class="text-lg sm:text-2xl text-emerald-400 font-semibold mt-1">
+        Software Engineer & Football Tactical Data Architect | Founder, PlayScope
+      </p>
+      
+      <!-- Punchy Modern About (Easy to Read) -->
+      <div class="mt-4 text-slate-300 text-sm sm:text-base leading-relaxed space-y-2">
+        <p>
+          I operate at the intersection of <strong class="text-white">Full-Stack Software Engineering</strong> and <strong class="text-white">Elite Match Tactics</strong>. Rather than relying on generic off-the-shelf software, I write custom code to dissect team shapes, automate opposition scouting reports, and engineer proprietary pitch telemetry models.
+        </p>
+      </div>
+    </div>
+
+    <!-- ================= THE ANALYST'S NOTE TO COACHES & CLUBS ================= -->
+    <div class="mt-8 bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 border-l-4 border-emerald-500 border-y border-r border-slate-800 rounded-xl p-5 sm:p-6 shadow-xl">
+      <div class="flex items-center gap-2 text-xs font-mono text-emerald-400 uppercase tracking-widest mb-2">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <span>A Candid Note to Head Coaches & Technical Directors</span>
+      </div>
+      <h3 class="text-base sm:text-lg font-bold text-white mb-2">
+        "Traditional recruitment values years on a bench. Modern football demands technical agility."
+      </h3>
+      <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+        Many clubs hesitate to trust emerging analysts over 10-year veteran profiles. But modern football moves too fast for static workflows. Legacy analysts take days to assemble manual charts; as a <strong>practicing Software Engineer</strong>, I build automated pipelines in hours—generating xT threat maps, transition triggers, and pressing breakdowns that technical staffs can act on immediately before matchday. My edge isn't a long CV; it's <strong>modern execution, technical speed, and relentless work ethic.</strong>
+      </p>
+    </div>
+
+    <!-- ================= TECH STACK & ANALYTICAL TOOLKIT ================= -->
+    <div class="mt-8">
+      <h4 class="text-xs font-mono text-slate-400 uppercase tracking-wider mb-3">Core Engineering Stack & Analytics Toolkit</h4>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        
+        <!-- Programming & Data -->
+        <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-4">
+          <div class="text-xs font-bold text-emerald-400 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+            Engineering & Logic
+          </div>
+          <p class="text-xs text-slate-300 mt-2 font-mono leading-relaxed">
+            Python (Pandas, NumPy), Java, JavaScript (React / Node), SQL, Git, Linux, C, C++, flask, open CV, keras, tensorflow, DATABASES, 
+          </p>
+        </div>
+
+        <!-- Tactical Data Viz -->
+        <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-4">
+          <div class="text-xs font-bold text-blue-400 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-blue-500"></span>
+            Spatial & Pitch Telemetry
+          </div>
+          <p class="text-xs text-slate-300 mt-2 font-mono leading-relaxed">
+             Pitch Spatial Grids, Passing Networks, xG / xT Flow Models, Convex Hulls, Territory Tilt,PPDA (pressing intensity)
+          </p>
+        </div>
+
+        <!-- Match Analysis & Scouting -->
+        <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-4">
+          <div class="text-xs font-bold text-cyan-400 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-cyan-500"></span>
+            Tactical Methodology
+          </div>
+          <p class="text-xs text-slate-300 mt-2 font-mono leading-relaxed">
+            Opponent Pre-Match Scouting, Defensive Compactness Audits, Transition Dynamics, In-Game performance Analysis, data analysis, video analysis, player scouting & analysis 
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ================= DIRECT CONTACT BAR ================= -->
+    <div class="mt-8 pt-6 border-t border-slate-800 flex flex-wrap items-center justify-between gap-4">
+      <div class="flex flex-wrap items-center gap-3">
+        <!-- Email -->
+        <a href="mailto:salmanp.connect@gmail.com" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 text-xs font-medium transition-all">
+          <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+          <span>salmanhamdu987@gmail.com</span> <!-- Ninte mail ivide maattuka -->
+        </a>
+
+        <!-- Phone / WhatsApp -->
+        <a href="https://wa.me/919XXXXXXXXX" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 text-xs font-medium transition-all">
+          <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.311.045-.698.059-2.147-.533-1.449-.592-2.383-2.062-2.455-2.158-.072-.096-.593-.789-.593-1.499 0-.71.372-1.061.505-1.205.133-.144.289-.18.385-.18.096 0 .192.002.276.007.09.005.21-.034.327.249.12.289.41 1.002.447 1.074.036.072.06.156.012.252-.048.096-.072.156-.144.24-.072.084-.152.188-.217.253-.072.071-.148.149-.064.293.084.144.372.613.8 1.004.551.504 1.016.66 1.16.732.144.072.228.06.312-.036.084-.096.36-.42.456-.564.096-.144.192-.12.324-.072.132.048.84.396.984.468.144.072.24.108.276.168.036.06.036.348-.108.753z"/></svg>
+          <span>+91 9656084090</span> <!-- Ninte number ivide maattuka -->
+        </a>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <a href="https://linkedin.com/in/salmancruiz" target="_blank" class="px-3.5 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold flex items-center gap-1.5 transition-all">
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/salmancruiz" target="_blank" class="px-3.5 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white text-xs font-semibold transition-all">
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ================= PORTFOLIO HUB & FILTERS ================= -->
+  <main class="max-w-7xl mx-auto px-4 py-10 flex-1 w-full">
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+      <div>
+        <h2 class="text-2xl font-bold text-white tracking-wide">Analytical Works & Dossiers</h2>
+        <p class="text-xs text-slate-400 mt-0.5">Interactive match telemetry, technical dossiers, and tactical video audits</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="flex flex-wrap items-center gap-1.5 p-1 bg-slate-900/90 border border-slate-800 rounded-xl" id="filter-buttons">
+        <button onclick="filterWorks('all')" class="filter-btn active-filter px-3 py-1 rounded-lg text-xs font-semibold bg-emerald-500 text-slate-950 transition-all">All</button>
+        <button onclick="filterWorks('telemetry')" class="filter-btn px-3 py-1 rounded-lg text-xs font-medium text-slate-300 hover:text-white transition-all">Match Telemetry</button>
+        <button onclick="filterWorks('dossier')" class="filter-btn px-3 py-1 rounded-lg text-xs font-medium text-slate-300 hover:text-white transition-all">Scouting Dossiers</button>
+        <button onclick="filterWorks('video')" class="filter-btn px-3 py-1 rounded-lg text-xs font-medium text-slate-300 hover:text-white transition-all">Video Analysis</button>
+        <button onclick="filterWorks('saas')" class="filter-btn px-3 py-1 rounded-lg text-xs font-medium text-slate-300 hover:text-white transition-all">SaaS & Systems</button>
+      </div>
+    </div>
+
+    <!-- Works Grid Container (Populated dynamically) -->
+    <div id="works-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Injected via JavaScript -->
+    </div>
+  </main>
+
+  <!-- ================= CONTACT SECTION ================= -->
+  <section id="contact" class="bg-slate-900/70 border-t border-slate-800/80 py-12">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-10 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+        <div class="max-w-xl">
+          <span class="text-xs font-mono text-emerald-400 uppercase tracking-widest">Connect Directly</span>
+          <h3 class="text-2xl font-bold text-white mt-1">Ready for Technical & Tactical Collaboration</h3>
+          <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+            Prepared to deliver bespoke opponent analysis dossiers, tactical telemetry setups, or custom scouting platforms for technical staffs across the Saudi Pro League and GCC ecosystem.
+          </p>
+        </div>
+        <div class="flex flex-wrap items-center gap-3">
+          <a href="https://linkedin.com/in/salmancruiz" target="_blank" class="px-5 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold transition-all flex items-center gap-2">
+            <span>LinkedIn Message</span>
+            <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="https://github.com/salmancruiz" target="_blank" class="px-5 py-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white text-xs font-semibold transition-all">
+            GitHub Repos
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER WITH SECRET ADMIN BUTTON ================= -->
+  <footer class="border-t border-slate-800/80 py-6 bg-slate-950 text-slate-500 text-xs">
+    <div class="max-w-7xl mx-auto px-4 flex items-center justify-between">
+      <div>
+        <span>© 2026 PlayScope by Salman P. All Rights Reserved.</span>
+      </div>
+      <!-- SECRET ADMIN BUTTON -->
+      <div>
+        <button onclick="promptAdmin()" title="Add Work (Admin Only)" class="p-1.5 rounded-md hover:bg-slate-800 text-slate-600 hover:text-emerald-400 transition-colors">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= SECRET ADD WORK MODAL ================= -->
+  <div id="admin-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 max-w-lg w-full shadow-2xl">
+      <div class="flex items-center justify-between mb-4 pb-2 border-b border-slate-800">
+        <h3 class="text-lg font-bold text-white flex items-center gap-2">
+          <span class="w-2 h-4 bg-emerald-500 rounded-sm"></span>
+          Add New Analytical Work
+        </h3>
+        <button onclick="closeAdminModal()" class="text-slate-400 hover:text-white text-sm">✕</button>
+      </div>
+
+      <form id="add-work-form" onsubmit="handleAddNewWork(event)" class="space-y-4 text-xs">
+        <div>
+          <label class="block text-slate-300 font-medium mb-1">Category / Type</label>
+          <select id="work-category" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-white focus:outline-none focus:border-emerald-500">
+            <option value="telemetry">Match Telemetry (Dashboard)</option>
+            <option value="dossier">Tactical / Scouting Dossier (PDF)</option>
+            <option value="video">Video Breakdown</option>
+            <option value="saas">SaaS Platform / Concept</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-slate-300 font-medium mb-1">Tag / Competition Badge</label>
+          <input type="text" id="work-tag" placeholder="e.g. SAUDI PRO LEAGUE, SCOUTING REPORT, ISL" required class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-white focus:outline-none focus:border-emerald-500" />
+        </div>
+
+        <div>
+          <label class="block text-slate-300 font-medium mb-1">Work Title</label>
+          <input type="text" id="work-title" placeholder="e.g. Al-Kholood vs NEOM FC Tactical Opponent Preview" required class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-white focus:outline-none focus:border-emerald-500" />
+        </div>
+
+        <div>
+          <label class="block text-slate-300 font-medium mb-1">Description (2 lines)</label>
+          <textarea id="work-desc" rows="2" placeholder="Brief outline of pressing triggers, tactical structures, or scouting data..." required class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-white focus:outline-none focus:border-emerald-500"></textarea>
+        </div>
+
+        <div>
+          <label class="block text-slate-300 font-medium mb-1">Destination URL (GitHub Page or LinkedIn Link)</label>
+          <input type="url" id="work-url" placeholder="https://..." required class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-white focus:outline-none focus:border-emerald-500" />
+        </div>
+
+        <div>
+          <label class="block text-slate-300 font-medium mb-1">Button Call-to-Action Text</label>
+          <input type="text" id="work-btn-text" placeholder="e.g. Open Telemetry / View Dossier" value="Open Work" required class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-white focus:outline-none focus:border-emerald-500" />
+        </div>
+
+        <div class="flex items-center justify-end gap-2 pt-2 border-t border-slate-800">
+          <button type="button" onclick="closeAdminModal()" class="px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 font-medium">Cancel</button>
+          <button type="submit" class="px-5 py-2 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold">Add to Portfolio</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ================= JAVASCRIPT LOGIC ================= -->
+  <script>
+    const ADMIN_PIN = "7777"; // Ninte secret password
+
+    // DEFAULT PRE-LOADED WORKS (Edit links or titles here)
+    const initialWorks = [
+        {
+        id: "1",
+        category: "telemetry",
+        tag: "FLAGSHIP PLATFORM",
+        title: "PlayScope — Multi-League Match Intelligence Hub",
+        desc: "Core central web application featuring multi-league telemetry (SPL & ISL), live fixture filtering, bilingual toggle (Arabic/English), and tactical shape visualization.",
+        url: "https://salmancruiz.github.io/PLAYSCOPE/",
+        btnText: "Launch PlayScope Hub",
+        theme: "emerald"
+      },
+      {
+        id: "2",
+        category: "telemetry",
+        tag: "SAUDI PRO LEAGUE",
+        title: "Al-Ahli VS Al Qadsiah match Tactical Breakdown ",
+        desc: "Tactical shape dynamics, transition structures, pass progression telemetry, and xG flow analysis.",
+        url: "https://salmancruiz.github.io/PS.Al-Ahli-08-09-match-data/",
+        btnText: "Open Telemetry Dashboard",
+        theme: "emerald"
+      },
+      {
+        id: "3",
+        category: "telemetry",
+        tag: "SAUDI PRO LEAGUE / SCOUTING",
+        title: "Firas Al-Buraikan — Player Intelligence & Scouting Dashboard",
+        desc: "Complete data-driven profile for Al-Ahli & Saudi National Team forward: 0.58 xG/90 production, tactical playstyle radar, bilingual EN/AR switch, and technical development plan.",
+        url: "https://firas-al-buraikan1.netlify.app/",
+        btnText: "Launch Player Report",
+        theme: "emerald"
+      },
+      {
+        id: "4",
+        category: "telemetry",
+        tag: "SAUDI PRO LEAGUE",
+        title: "Abha FC VS Al Hazem ",
+        desc: "Defensive compactness, zonal coverage under block conditions, and direct offensive transition data.",
+        url: "https://salmancruiz.github.io/PLAY-SCOPE-ABHA-FC-SUADI-AUG-13-26/",
+        btnText: "Open Telemetry Dashboard",
+        theme: "emerald"
+      },
+      {
+        id: "5",
+        category: "telemetry",
+        tag: "INDIAN SUPER LEAGUE",
+        title: "Kerala Blasters vs Chennaiyin FC",
+        desc: "Central duel spatial heatmaps, progression networks, and high-press turnover mapping.",
+        url: "https://salmancruiz.github.io/PS.keralavschennaiISL/",
+        btnText: "Open Telemetry Dashboard",
+        theme: "amber"
+      },
+      {
+        id: "6",
+        category: "dossier",
+        tag: "PREMIER LEAGUE",
+        title: "Manchester City - Team Tactical Profile & DNA Audit ",
+        desc: "Comprehensive tactical breakdown analyzing Pep's 4-2-3-1 pass networks (2.37 xG/M), xT threat heatmaps, possession DNA, and defensive action distribution.",
+        url: "https://lnkd.in/p/ge5mhcq3",
+        btnText: "View Dossier on LinkedIn",
+        theme: "blue"
+      },
+      
+        {
+        id: "7",
+        category: "dossier",
+        tag: "PLAYER SCOUTING STUDY",
+        title: "Cristiano Ronaldo (2007/08) — Historical Performance Dossier",
+        desc: "Comprehensive 10-page scouting dossier analyzing Ronaldo's 42-goal Ballon d'Or campaign: attacking production (1.02 goals/90), tactical role dynamics, and multi-route goal threats.",
+        url: "https://lnkd.in/p/gXqBSYWT",
+        btnText: "View Dossier on LinkedIn",
+        theme: "blue"
+      
+      },
+      {
+        id: "8",
+        category: "dossier",
+        tag: "TACTICAL BREAKDOWN",
+        title: "Real Madrid vs AS Roma — Defensive Mistake Leading to Goal",
+        desc: "Tactical visual breakdown analyzing Roma's rotation mechanics in 3 phases: wide overload, blind-side underlap, and backline synchronization errors leading to goal.",
+        url: "https://lnkd.in/p/gFE9G287",
+        btnText: "View Breakdown on LinkedIn",
+        theme: "blue"
+      },
+      {
+        id: "9",
+        category: "video",
+        tag: "EUROPEAN FOOTBALL",
+        title: "Real Madrid vs AS Roma — Defensive Line Structure",
+        desc: "Visual video breakdown identifying off-ball defensive disorganization, half-space coverage errors, and backline synchronization lapses.",
+        url: "https://lnkd.in/p/g3f6CaqQ",
+        btnText: "Watch Video on LinkedIn",
+        theme: "cyan"
+      },
+      
+    ];
+
+    // Load from localStorage or use initial
+    function getWorks() {
+      const stored = localStorage.getItem("playscope_works");
+      if (stored) {
+        try { return JSON.parse(stored); } catch (e) { return initialWorks; }
+      }
+      return initialWorks;
+    }
+
+    let currentFilter = 'all';
+
+    function renderWorks() {
+      const container = document.getElementById("works-grid");
+      const works = getWorks();
+      const filtered = currentFilter === 'all' ? works : works.filter(w => w.category === currentFilter);
+
+      container.innerHTML = "";
+
+      if (filtered.length === 0) {
+        container.innerHTML = `<div class="col-span-full py-12 text-center text-slate-500 font-mono text-xs">No works found in this category.</div>`;
+        return;
+      }
+
+      filtered.forEach(work => {
+        let badgeColor = "bg-emerald-500/10 text-emerald-400 border-emerald-500/20";
+        let btnColor = "bg-emerald-600 hover:bg-emerald-500";
+
+        if (work.category === 'dossier') {
+          badgeColor = "bg-blue-500/10 text-blue-400 border-blue-500/20";
+          btnColor = "bg-blue-600 hover:bg-blue-500";
+        } else if (work.category === 'video') {
+          badgeColor = "bg-cyan-500/10 text-cyan-400 border-cyan-500/20";
+          btnColor = "bg-cyan-600 hover:bg-cyan-500";
+        } else if (work.theme === 'amber') {
+          badgeColor = "bg-amber-500/10 text-amber-400 border-amber-500/20";
+          btnColor = "bg-amber-600 hover:bg-amber-500";
+        }
+
+        const card = document.createElement("div");
+        card.className = "bg-slate-900/80 border border-slate-800 rounded-xl p-5 hover:border-slate-700 transition-all flex flex-col justify-between group shadow-lg";
+        card.innerHTML = `
+          <div>
+            <div class="flex items-center justify-between text-xs font-mono mb-2">
+              <span class="px-2 py-0.5 rounded border ${badgeColor}">${work.tag}</span>
+              <span class="text-slate-500 uppercase tracking-wider text-[10px]">${work.category}</span>
+            </div>
+            <h3 class="text-base font-bold text-white group-hover:text-emerald-400 transition-colors mt-2">
+              ${work.title}
+            </h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">
+              ${work.desc}
+            </p>
+          </div>
+          <a href="${work.url}" target="_blank" rel="noopener noreferrer" class="mt-5 w-full py-2.5 px-4 rounded-lg ${btnColor} text-white text-xs font-semibold flex items-center justify-center gap-2 transition-all shadow-md">
+            <span>${work.btnText || 'Open Work'}</span>
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+          </a>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    function filterWorks(category) {
+      currentFilter = category;
+      document.querySelectorAll(".filter-btn").forEach(btn => {
+        btn.classList.remove("bg-emerald-500", "text-slate-950", "active-filter");
+        btn.classList.add("text-slate-300");
+      });
+      event.target.classList.add("bg-emerald-500", "text-slate-950", "active-filter");
+      event.target.classList.remove("text-slate-300");
+      renderWorks();
+    }
+
+    // Secret Admin Access Prompt
+    function promptAdmin() {
+      const pin = prompt("Enter Admin PIN to add new work:");
+      if (pin === ADMIN_PIN) {
+        document.getElementById("admin-modal").classList.remove("hidden");
+        document.getElementById("admin-modal").classList.add("flex");
+      } else if (pin !== null) {
+        alert("Incorrect PIN.");
+      }
+    }
+
+    function closeAdminModal() {
+      document.getElementById("admin-modal").classList.add("hidden");
+      document.getElementById("admin-modal").classList.remove("flex");
+      document.getElementById("add-work-form").reset();
+    }
+
+    function handleAddNewWork(e) {
+      e.preventDefault();
+      const newWork = {
+        id: Date.now().toString(),
+        category: document.getElementById("work-category").value,
+        tag: document.getElementById("work-tag").value.trim().toUpperCase(),
+        title: document.getElementById("work-title").value.trim(),
+        desc: document.getElementById("work-desc").value.trim(),
+        url: document.getElementById("work-url").value.trim(),
+        btnText: document.getElementById("work-btn-text").value.trim()
+      };
+
+      const works = getWorks();
+      works.unshift(newWork); // Add to top
+      localStorage.setItem("playscope_works", JSON.stringify(works));
+      
+      closeAdminModal();
+      renderWorks();
+      alert("New work added successfully to your portfolio!");
+    }
+
+    // Initial Render
+    renderWorks();
+  </script>
+</body>
+</html>
